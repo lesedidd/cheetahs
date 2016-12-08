@@ -10,3 +10,17 @@ a{
   margin: 20px;
   margin-right: 40px;
 }
+#home{
+  background:#006666;
+  height: 600px;
+  animation-name: bg-change;
+  animation-duration: 6s;
+}
+@keyframes bg-change{
+from {background-color:#ccffff ;}
+    to {background-color:#006666;}
+
+}
+
+ 
+  
