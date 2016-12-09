@@ -1,3 +1,7 @@
+body{
+	padding-top: 70px;
+	padding-bottom: 80px;
+}
 nav{
 	min-height: 60px;
 }
@@ -21,6 +25,27 @@ from {background-color:#ccffff ;}
     to {background-color:#006666;}
 
 }
-
- 
+p{  
+	font-family: 'Londrina Shadow', cursive;
+	color: white;
+	font-size: 60px;
+	margin-top: 200px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+@media (max-width: 500px)
+ {
+ 	p{
+ 		font-size: 30px;
+ 	}
+ 	a{
+ 		font-size: 15px;
+ 	}
+ 	.navbar-brand{
+ 		font-size: 20px;
+ 	}
+ 	nav{
+ 		min-height: 45px;
+ 	}
+ }
   
