@@ -1,0 +1,46 @@
+body{
+	padding-top: 70px;
+	padding-bottom: 80px;
+}
+nav{
+	min-height: 60px;
+}
+.navbar-brand{
+ font-size: 45px;
+ margin-left: 60px;
+}
+a{
+  font-size: 25px;
+  margin: 20px;
+  margin-right: 40px;
+}
+#home{
+  background:#006666;
+  height: 600px;
+  animation-name: bg-change;
+  animation-duration: 6s;
+}
+@keyframes bg-change{
+from {background-color:#ccffff ;}
+    to {background-color:#006666;}
+
+}
+p{ font-family: 'Architects Daughter', cursive;
+	color: white;
+	font-size: 60px;
+	margin-top: 200px;
+	
+}
+@media (max-width: 500px)
+ {
+ 	p{
+ 		font-size: 30px;
+ 	}
+ 	a{
+ 		font-size: 18px;
+ 	}
+ 	.navbar-brand{
+ 		font-size: 35px;
+ 	}
+ }
+  
